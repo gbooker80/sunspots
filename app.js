@@ -1,4 +1,4 @@
-var csvUrl = "https://raw.githubusercontent.com/Peleke/geo-plots/master/list_aavso-arssn_yearly.txt";
+var csvUrl = "https://raw.githubusercontent.com/Peleke/geo-plots/master/wolf_number_year.csv";
 Plotly.d3.csv(csvUrl, function(err, data) {
   function unpack(rows, key) {
     return rows.map(row => row[key]);
